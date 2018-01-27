@@ -1,4 +1,4 @@
-
+import os
 from itertools import islice
 from random import random
 from time import perf_counter
@@ -20,3 +20,4 @@ def test(fn, name):
 
 test(lambda d: [fast_tanh(x) for x in d], '[fast_tanh(x) for x in d]')
 
+os.system("pause")
